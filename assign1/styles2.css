@@ -1,0 +1,182 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header Section */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo-text h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .logo-text p {
+    font-size: 0.9em;
+    color: #7f8c8d;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #3498db;
+  }
+  
+  .donate-btn {
+    background-color: #e74c3c;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .donate-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+    background: url('https://images.pexels.com/photos/35537/child-children-girl-happy.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .overlay {
+    padding-left: 100px;
+    color: white;
+  }
+  
+  .overlay h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .overlay p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    padding: 10px 30px;
+    background-color: #34495e;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #2c3e50;
+  }
+  
+  /* Newsletter Section */
+  .newsletter {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .newsletter h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .newsletter form input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .newsletter form button {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter form button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .hero {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .overlay {
+      padding-left: 0;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 20px;
+    }
+  
+    .newsletter form {
+      flex-direction: column;
+    }
+  
+    .newsletter form input[type="email"] {
+      width: 100%;
+    }
+  }
+  
