@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #3b5998;
+    padding: 10px 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    width: 150px;
+  }
+  
+  .login-form button {
+    padding: 10px 20px;
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .forgot-link {
+    margin-left: 10px;
+    color: #3b5998;
+    text-decoration: none;
+  }
+  
+  .signup-container {
+    margin: 20px auto;
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+  }
+  
+  .name-field {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .name-field input {
+    width: 48%;
+  }
+  
+  .birthday-field {
+    text-align: left;
+    margin-top: 15px;
+  }
+  
+  .select-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  .select-boxes select {
+    width: 32%;
+    padding: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+  }
+  
+  .gender-field {
+    text-align: left;
+    margin: 15px 0;
+  }
+  
+  .gender-field input {
+    margin-right: 5px;
+  }
+  
+  .signup-btn {
+    padding: 15px;
+    width: 100%;
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f5f6f7;
+  }
+  
+  .footer a {
+    color: #385898;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 12px;
+  }
+  
