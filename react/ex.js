@@ -8,7 +8,9 @@
 // export default Greeting;
 
 // Example usage in App.js:
-// <Greeting name="Alice" />
+// <Greeting name="Alice" "
+
+/>
 
 // Q2
 // import React from 'react';
