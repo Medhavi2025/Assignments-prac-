@@ -1,7 +1,7 @@
 // Q1
 // import React from 'react';
 
-// const Greeting = ({ name }) => {
+// const Greeting = ({ name })} => {
 //     return <h1>Hello, {name}!</h1>;
 // };
 
