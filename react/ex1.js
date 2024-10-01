@@ -1,3 +1,4 @@
+// Q1
 import React, { useState, useEffect } from 'react';
 import ProductCard from './ProductCard'; // Import child component (ProductCard)
 
