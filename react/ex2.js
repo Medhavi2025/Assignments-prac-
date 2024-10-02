@@ -1,3 +1,4 @@
+// Q2
 import React from 'react';
 import './ProductCard.css'; // Import CSS for basic styling
 
