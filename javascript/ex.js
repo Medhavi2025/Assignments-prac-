@@ -3,6 +3,7 @@ function sayHello() {
     return "Hello, World!";
 }
 
+// Q2
 // 2. Function with Parameters
 function doubleNumber(num) {
     return num * 2;
