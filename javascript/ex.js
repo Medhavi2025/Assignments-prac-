@@ -1,3 +1,4 @@
+// Q1
 // 1. Function with no parameters that returns a string
 function sayHello() {
     return "Hello, World!";
