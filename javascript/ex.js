@@ -10,6 +10,7 @@ function doubleNumber(num) {
     return num * 2;
 }
 
+// Q3
 // 3. Simple Return Function
 function addTwoNumbers(num1, num2) {
     return num1 + num2;
