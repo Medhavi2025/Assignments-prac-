@@ -16,6 +16,7 @@ function addTwoNumbers(num1, num2) {
     return num1 + num2;
 }
 
+// Q4
 // 4. Arrow Function (converted from doubleNumber)
 const doubleNumberArrow = (num) => num * 2;
 
