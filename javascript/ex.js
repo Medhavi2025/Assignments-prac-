@@ -20,6 +20,8 @@ function addTwoNumbers(num1, num2) {
 // 4. Arrow Function (converted from doubleNumber)
 const doubleNumberArrow = (num) => num * 2;
 
+
+// Q5
 // 5. Arithmetic Operator
 function subtractTen(num) {
     return num - 10;
