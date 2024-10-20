@@ -27,6 +27,8 @@ function subtractTen(num) {
     return num - 10;
 }
 
+
+// Q6
 // 6. Comparison Operator
 function isGreaterThanFive(num) {
     return num > 5;
