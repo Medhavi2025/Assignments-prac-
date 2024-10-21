@@ -34,6 +34,7 @@ function isGreaterThanFive(num) {
     return num > 5;
 }
 
+// Q7
 // 7. Logical Operator
 function isBetweenOneAndTen(num) {
     return num >= 1 && num <= 10;
