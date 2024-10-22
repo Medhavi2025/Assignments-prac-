@@ -40,6 +40,8 @@ function isBetweenOneAndTen(num) {
     return num >= 1 && num <= 10;
 }
 
+
+// Q8
 // 8. If-Else Statement
 function isEven(num) {
     if (num % 2 === 0) {
