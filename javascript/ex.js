@@ -51,6 +51,8 @@ function isEven(num) {
     }
 }
 
+
+// Q9
 // 9. Ternary Operator
 function checkAge(age) {
     return age >= 18 ? "Adult" : "Minor";
