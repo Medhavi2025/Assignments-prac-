@@ -58,6 +58,7 @@ function checkAge(age) {
     return age >= 18 ? "Adult" : "Minor";
 }
 
+// Q10
 // 10. Switch Statement
 function getDayType(day) {
     switch(day) {
